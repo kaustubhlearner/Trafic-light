@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="heading">
+        <h1>Traffic Light</h1>
+    </header>
+    <section class="mainsection">
+        <div class="first-div">
+            <section class="section">
+                <button class="div-center" id="Stop" onclick="firstupdate()">Stop</button>
+                <button class="div-center" id="Ready" onclick="secondupdate()">Ready</button>
+                <button class="div-center" id="go" onclick="thirddivupdate()">Go</button>
+            </section>
+        </div>
+        <div class="second-div">
+            <section class="section">
+                <div class="div-center" id="first"></div>
+                <div class="div-center" id="second"></div>
+                <div class="div-center" id="third"></div>
+            </section>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.first-div{
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+   
+}
+.second-div{
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.mainsection{
+    display: flex;
+    gap: 10px;
+}
+.div-center{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid black;
+  
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+#Ready:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+#Stop:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#go:hover{
+    background-color: green;
+    cursor: pointer;
+}
